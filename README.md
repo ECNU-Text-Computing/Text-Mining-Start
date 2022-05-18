@@ -4,14 +4,23 @@
 ## 怎么运行？
 ### 数据预处理：
 * **show_json_data**：查看源数据。
+
 `python3 Data_Processor.py --phase show_json_data`
+
 * **extract_abs_label**：从源数据中提取输入和输出。因为我用的是aapr这个数据集，所以此处是abs和label。对于不同的源数据，要自己写不同的数据处理方法。
+
 `python3 Data_Processor.py --phase extract_abs_label`
+
 * **save_abs_label**：将处理好的干净数据保存下来。
+
 `python3 Data_Processor.py --phase save_abs_label`
+
 * **split_data**：将干净数据按照某种比例分割开。
+
 `python3 Data_Processor.py --phase split_data`
+
 * **get_vocab**：为深度学习部分，生成一个字典。
+
 `python3 Data_Processor.py --phase get_vocab`
 
 **注意，如果你的系统中仅有python3，没有python2，那么你可能需要把`python3`替换为`python`。**
@@ -41,9 +50,13 @@
 `--phase` 后的 `aapr.ml.svm.tf`为main.py中parser可以捕捉的参数，此时为机器学习的config文件名。
 
 ## To be continued...
+
 风雨过后一定会有美好的天空
+
 天晴之后总会有彩虹
+
 战胜疫情一定有始有终
+
 孤独尽头不一定惶恐
 
 愿疫情早日退散。

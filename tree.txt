@@ -1,0 +1,47 @@
+.
+├── LICENSE
+├── README.md
+├── config
+│ └── aapr
+│     ├── dl
+│     │ ├── aapr.dl.mlp.norm.batch32.json
+│     │ ├── aapr.dl.mlp.norm.json
+│     │ ├── aapr.dl.mlp.norm2.json
+│     │ └── aapr.dl.textcnn.norm.json
+│     └── ml
+│         ├── aapr.ml.lr.lda.json
+│         ├── aapr.ml.lr.tf.json
+│         ├── aapr.ml.lr.tfidf.json
+│         ├── aapr.ml.svm.lda.json
+│         ├── aapr.ml.svm.tf.json
+│         └── aapr.ml.svm.tfidf.json
+├── data_loader.py
+├── data_processor.py
+├── datasets
+│ ├── aapr
+│ └── original
+│     └── AAPR_Dataset
+│         ├── Readme.txt
+│         ├── data1
+│         ├── data2
+│         ├── data3
+│         └── data4
+├── deep
+│ ├── __init__.py
+│ ├── base_model.py
+│ ├── hierarchy
+│ │ └── __init__.py
+│ └── text_cnn.py
+├── logs
+├── main.py
+├── shallow
+│ ├── __init__.py
+│ ├── base_model.py
+│ ├── logistic_regression.py
+│ └── svm.py
+├── tree.log
+└── utils
+    ├── __init__.py
+    └── metrics.py
+
+13 directories, 31 files

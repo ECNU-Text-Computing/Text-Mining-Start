@@ -1,8 +1,8 @@
 # Text Mining Start
 这是学习文本挖掘编程的一个入门版本。
 
-## 怎么运行？
-### 数据预处理：
+## 1. 怎么运行？
+### 1.1 数据预处理：
 * **show_json_data**：查看源数据。
 
 `python3 Data_Processor.py --phase show_json_data`
@@ -25,7 +25,7 @@
 
 **注意，如果你的系统中仅有python3，没有python2，那么你可能需要把`python3`替换为`python`。**
 
-### 训练深度学习模型:
+### 1.2 训练深度学习模型:
 
 `python3 main.py --phase aapr.dl.mlp.norm`
 
@@ -33,7 +33,7 @@
 
 `--phase` 后的 `aapr.dl.mlp.norm`为main.py中parser可以捕捉的参数，此时为深度学习的config文件名。 
 
-### 训练深度学习模型:
+### 1.3 训练深度学习模型:
 
 `python3 main.py --phase aapr.ml.lr.tf`
 
@@ -49,7 +49,7 @@
 
 `--phase` 后的 `aapr.ml.svm.tf`为main.py中parser可以捕捉的参数，此时为机器学习的config文件名。
 
-## To be continued...
+## 2. To be continued...
 
 风雨过后一定会有美好的天空
 

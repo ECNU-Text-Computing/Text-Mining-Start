@@ -5,7 +5,13 @@
 
 ### 1.1 数据：
 
-**我将提供一个datasets.zip文件，你将之放置在该项目的根目录下，然后解压即可。最终该项目的目录结构如文件tree.txt所示。**
+**请通过百度网盘下载datasets.zip文件，然后将之放置在该项目的根目录下，直接解压即可。**
+
+* 链接: https://pan.baidu.com/s/1VQy5ASZXKP6CaQs3-6WrBA 提取码: 05ef
+
+解压后的目录应该包括`./Text-Mining-Start/datasets/original/AAPR_Dataset/data*`
+
+最终该项目的目录结构如文件**tree.txt**所示。
 
 ### 1.2 数据预处理：
 * **show_json_data**：查看源数据。

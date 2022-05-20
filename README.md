@@ -9,7 +9,7 @@
 
 * 链接: https://pan.baidu.com/s/1VQy5ASZXKP6CaQs3-6WrBA 提取码: 05ef
 
-解压后的目录应该包括`./Text-Mining-Start/datasets/original/AAPR_Dataset/data*`
+解压后的目录应该包括`./Text-Mining-Start/datasets/original/AAPR_Dataset/data3`
 
 最终该项目的目录结构如文件**tree.txt**所示。
 

@@ -54,6 +54,7 @@ def main_ml(config):
     model.train(x_train, y_train)
 
     # 将实验中间产生的数据，如训练好的模型文件，保存在实验（exp）文件夹中。
+    # save_folder = 'exp/aapr/'
     save_folder = '{}{}/'.format(data_loader.exp_root, data_name)
     if not os.path.exists(save_folder):
         os.mkdir(save_folder)
@@ -77,34 +78,46 @@ def main_ml(config):
 
 
 def main_dl(config):
+    data_name = config['data_name']  # aapr
+    model_name = config['model_name']  # mlp
+
     # 数据导入类的实例化。
     data_loader = DataLoader()
 
     # 导入字典。
     # 该字典可将每个字符映射为一个id，进而可将一个字符序列转化为一个id的序列。
-    word_dict_path = "exp/aapr/vocab.cover1.min0.json"
+    # 根据config中的data_name，选择对应数据的字典。
+    # word_dict_path = "exp/aapr/vocab.cover1.min0.json"
+    word_dict_path = "exp/{}/vocab.cover1.min0.json".format(data_name)
     with open(word_dict_path, 'r') as fp:
         word_dict = json.load(fp)
         print("Load word dict from {}.".format(word_dict_path))
 
     # 训练/验证/测试.输入 数据集的地址。
-    input_path_train = 'datasets/aapr/train.input'
-    input_path_val = 'datasets/aapr/val.input'
-    input_path_test = 'datasets/aapr/test.input'
+    input_path_train = 'datasets/{}/train.input'.format(data_name)
+    input_path_val = 'datasets/{}/val.input'.format(data_name)
+    input_path_test = 'datasets/{}/test.input'.format(data_name)
 
     # 训练/验证/测试.输出 数据集的地址。
-    output_path_train = 'datasets/aapr/train.output'
-    output_path_val = 'datasets/aapr/val.output'
-    output_path_test = 'datasets/aapr/test.output'
+    output_path_train = 'datasets/{}/train.output'.format(data_name)
+    output_path_val = 'datasets/{}/val.output'.format(data_name)
+    output_path_test = 'datasets/{}/test.output'.format(data_name)
 
+    # 将实验中间产生的数据，如训练好的模型文件，保存在实验（exp）文件夹中。
+    # save_folder = 'exp/aapr/'
+    save_folder = '{}{}/'.format(data_loader.exp_root, data_name)
+    if not os.path.exists(save_folder):
+        os.mkdir(save_folder)
     # 深度学习实验的中间结果会保存在这个文件夹中。
-    save_folder = 'exp/aapr/dl/'
+    # save_folder = 'exp/aapr/dl/'
+    save_folder = 'exp/{}/dl/'.format(data_name)
     # 如果你还没有创建这个文件夹，那下面的代码将帮你创建一个文件夹。
     if not os.path.exists(save_folder):
         os.mkdir(save_folder)
 
     # 使用不同模型的时候，后面的mlp要改为对应模型的名字。
-    save_model_folder = 'exp/aapr/dl/mlp/'
+    # save_model_folder = 'exp/aapr/dl/mlp/'
+    save_model_folder = 'exp/{}/dl/{}/'.format(data_name, model_name)
     # 如果你还没有创建这个文件夹，那下面的代码将帮你创建一个文件夹。
     if not os.path.exists(save_model_folder):
         os.mkdir(save_model_folder)

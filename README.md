@@ -3,6 +3,14 @@
 
 ## 1. 怎么运行？
 
+### 1.0 环境要求：
+
+本项目所需的python版本为python3.8。
+
+本项目依赖的python包见requirements.txt。
+
+可在命令行（Windows）或者终端（Linux/macOS）中一键安装：`pip install -r requirements.txt`
+
 ### 1.1 数据：
 
 **请通过百度网盘下载datasets.zip文件，然后将之放置在该项目的根目录下，直接解压即可。**

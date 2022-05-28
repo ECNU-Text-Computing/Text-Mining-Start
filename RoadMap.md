@@ -83,7 +83,6 @@
 ### 2.6 注意力机制
 * 什么是注意力机制 [学习链接](https://zhuanlan.zhihu.com/p/67909876) （看理论部分即可）
 * 什么是自注意力机制 [学习链接](https://zhuanlan.zhihu.com/p/484524337)
-* 在文本中的应用 [学习链接](https://zhuanlan.zhihu.com/p/25928551) （选读）
 
 ### 2.7 Pytorch代码实践
 * [NLP FROM SCRATCH: CLASSIFYING NAMES WITH A CHARACTER-LEVEL RNN](https://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html)

@@ -1,5 +1,5 @@
 # Text Mining Start
-这是学习文本挖掘编程的一个入门版本。
+这是学习文本挖掘编程的一个入门版本，代码的进阶版本见[链接](https://github.com/ECNU-Text-Computing/Text-Mining) 。理论学习请参见[链接](https://github.com/ECNU-Text-Computing/Text-Mining-Start/blob/main/RoadMap.md) 。
 
 ## 1. 怎么运行？
 

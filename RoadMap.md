@@ -102,7 +102,7 @@
 
 **在你掌握了机器学习与深度学习最核心的思想之后，会发现有大量的细节还不是很清楚，这时候除了每次针对性的搜索和学习之外，最好跟着某门课或者某本书系统的重新学习一遍。**
 
-## 3.1 课程篇
+### 3.1 课程篇
 1. 基础：微积分、线性代数、概率论和统计学，**可以把当年的课本拿出来复习一遍**
    * 微积分：至少应该懂得如何求导
    * 线性代数：至少懂矩阵相乘、点乘、秩的概念、矩阵分解等
@@ -112,13 +112,14 @@
    * 入门课程：[吴恩达老师的Coursera课程](https://www.bilibili.com/video/BV164411b7dx)
    * 其他课程：林轩田老师的[机器学习基石](https://www.bilibili.com/video/av1624332) 和 [机器学习技法](https://www.bilibili.com/video/av12469267)
    * 其他理论和代码搭配教学的课程：华盛顿大学的[机器学习专项课程](https://www.bilibili.com/video/BV1LW411B7uB)
+   * 文本相关的课程：翟成祥老师的[文本挖掘和分析](https://www.bilibili.com/video/BV1Ci4y1u7Qw)
    
 3. 再进阶：深度学习
-   * [吴恩达老师关于deep learning的课程](https://www.bilibili.com/video/BV16r4y1Y7jv)
+   * 吴恩达老师关于[deep learning的课程](https://www.bilibili.com/video/BV16r4y1Y7jv)
    * Manning老师关于自然语言处理的[CS224n](https://www.bilibili.com/video/av13383754)
-   * [李宏毅老师的课程](https://www.bilibili.com/video/BV1Wv411h7kN) 
+   * 李宏毅老师的[深度学习课程](https://www.bilibili.com/video/BV1Wv411h7kN) 
 
-## 3.2 书籍篇
+### 3.2 书籍篇
 * 周志华老师的西瓜书[《机器学习》](https://item.jd.com/11867803.html)
 * 李航老师的小蓝书[《统计学习方法》](https://item.jd.com/12385906.html)
 * 邱锡鹏老师的[《神经网络与深度学习》](https://nndl.github.io/)

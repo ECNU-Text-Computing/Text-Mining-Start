@@ -26,23 +26,23 @@
 ### 1.2 数据预处理：
 * **show_json_data**：查看源数据。
 
-    `python Data_Processor.py --phase show_json_data`
+    `python data_processor.py --phase show_json_data`
 
 * **extract_abs_label**：从源数据中提取输入和输出。因为我用的是aapr这个数据集，所以此处是abs和label。对于不同的源数据，要自己写不同的数据处理方法。
 
-    `python Data_Processor.py --phase extract_abs_label`
+    `python data_processor.py --phase extract_abs_label`
 
 * **save_abs_label**：将处理好的干净数据保存下来。
 
-    `python Data_Processor.py --phase save_abs_label`
+    `python data_processor.py --phase save_abs_label`
 
 * **split_data**：将干净数据按照某种比例分割开。
 
-    `python Data_Processor.py --phase split_data`
+    `python data_processor.py --phase split_data`
 
 * **get_vocab**：为深度学习部分，生成一个字典。
 
-    `python Data_Processor.py --phase get_vocab`
+    `python data_processor.py --phase get_vocab`
 
 ### 1.3 训练深度学习模型:
 

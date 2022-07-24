@@ -33,13 +33,16 @@
 
 * **内容4：利用scikit-learn实现机器学习** ，可参见[中文教程](https://sklearn.apachecn.org/#/docs/master/51) 或者 [英文教程](https://scikit-learn.org/stable/tutorial/index.html) 。
    
-  **要求：** **前置要求：掌握下面要求的机器学习基础** 。需将教程提到的每一行代码都亲手实验。
+  **要求：** **前置要求：掌握机器学习基础** 。需将教程提到的每一行代码都亲手实验。
 
   **时间：** 2天内完成。
 
 * **内容5：利用Pytorch实现深度学习** ，可参见[中文教程](https://www.w3cschool.cn/pytorch/pytorch-5ubt3bby.html) 或者 [英文教程](https://pytorch.org/tutorials/beginner/basics/intro.html) 。
    
-  **要求：** **前置要求：掌握下面要求的深度学习基础** 。需将教程提到的每一行代码都亲手实验。
+  **要求：** **前置要求：掌握深度学习基础** 。以下为必读。
+    * **Introduction to PyTorch**
+    * **Learning PyTorch**
+    * **Text**
 
   **时间：** 2天内完成。
 
@@ -108,7 +111,7 @@
    * 概率论与统计：至少需要懂抽样和几种常见的分布
 
 2. 进阶：机器学习
-   * 入门课程：[吴恩达老师的Coursera课程](https://www.bilibili.com/video/BV164411b7dx)
+   * 入门课程：[吴恩达老师的Coursera课程](https://www.bilibili.com/video/BV164411b7dx) (p1-p24, p32-p56, p59-p75, p102-p105)
    * 其他课程：林轩田老师的[机器学习基石](https://www.bilibili.com/video/av1624332) 和 [机器学习技法](https://www.bilibili.com/video/av12469267)
    * 其他理论和代码搭配教学的课程：华盛顿大学的[机器学习专项课程](https://www.bilibili.com/video/BV1LW411B7uB)
    * 文本相关的课程：翟成祥老师的[文本挖掘和分析](https://www.bilibili.com/video/BV1Ci4y1u7Qw)

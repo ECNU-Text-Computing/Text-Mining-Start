@@ -5,7 +5,7 @@
 
 ### 1.0 环境要求：
 
-本项目所需的python版本为python3.8。
+本项目所需的python版本为python3.8及以上。
 
 本项目依赖的python包见requirements.txt。
 
